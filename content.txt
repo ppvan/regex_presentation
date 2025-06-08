@@ -1,0 +1,78 @@
+
+regex là công cụ tìm kiếm pattern trong 1 đoạn text
+
+regex nổi tiếng với hai usecase chính
+- tìm kiếm trong text editor
+- làm lexer trong compiler/interpreter
+
+- regex engine hoạt động như thế nào?
+- bản chất của regex engine là diễn tả regex -> DFA
+
+
+Regex basics
+- Introduce regex usecase and basic syntax, tools
+How regex engines works
+- Simple algorithm walk-through how regex actually match pattern and capture group
+Regex in practice
+- Common tips and pitfall when working with regex
+Introduce to parsing
+- Regex limits
+- How parsing can solve set of problem regex can't
+Conclusion
+
+
+
+Good website to learn regex: https://regexone.com/
+Regex basics
+
+match characters: a -> a
+match a set of chars: [abc] -> a or b or c
+match digits: [0-9]
+number of time: a{9}: match 'a' 9 times
+zero or 1 time: ?
+zeo or more: *
+every thing: .
+
+
+Unicode with regex?
+
+
+
+Outline talk: 
+- Thanks you so much for being here
+
+https://xkcd.com/1171/
+
+
+- Regex in Words, google docs
+- Regex usecase:
+    - search text
+    - validate text
+
+- Regex "engine"
+
+- Shothand:
+    - \w -> [a-zA-Z0-9_]
+
+- Regex to delete repeated word 
+- Validate password rule
+
+
+- Chars
+- Space
+- Anchor
+- Group & Capture
+- Repetition
+
+
+Finite Automata?
+
+How regex works under the hood
+- Finite Automata
+- How regex -> FA
+- Other uses of FA apart from regex
+
+
+https://cs.stackexchange.com/questions/140078/are-modern-programming-languages-context-free
+
+
